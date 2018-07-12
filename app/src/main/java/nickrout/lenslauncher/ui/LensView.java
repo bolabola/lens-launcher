@@ -436,7 +436,7 @@ public class LensView extends View {
                 @Override
                 public void onAnimationEnd(Animation animation) {
                     if (!mShow) {
-                        launchApp();
+                        //launchApp();
                         mTouchX = -Float.MAX_VALUE;
                         mTouchY = -Float.MAX_VALUE;
                         mAnimationHiding = false;
